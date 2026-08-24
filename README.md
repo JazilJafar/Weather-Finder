@@ -1,6 +1,6 @@
 ![Alt Text](./images/pe.png)
 
-**Live Weather Finder** 
+**Cool Weather Finder** 
 
 ![Alt Text](./images/ff.png)
 
@@ -15,7 +15,7 @@ In this we give images according to weather condition
 Also this also give Humidity and Wind Speed
 
 
-This is made using API 
+This is made using API and making into json
 
 Languages Used:
 
@@ -35,3 +35,5 @@ https://github.com/JazilJafar/Weather-Finder.git
 Demo URl:
 
 https://github.com/JazilJafar/Weather-Finder.git
+
+made with love💖

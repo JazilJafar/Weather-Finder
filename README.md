@@ -27,9 +27,9 @@ Languages Used:
 
 If You like my Weather finder Give me a Star ⭐ 
 
-Code URL :
+Code URL to run on local also code :
 
-https://github.com/JazilJafar/Weather-Finder.git
+git clone https://github.com/JazilJafar/Weather-Finder.git
 
 
 Demo URl:

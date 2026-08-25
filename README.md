@@ -27,7 +27,7 @@ Languages Used:
 
 If You like my Weather finder Give me a Star ⭐ 
 
-Code URL to run on local also code :
+Code URL to run on local in vs terminal or git bash :
 
 git clone https://github.com/JazilJafar/Weather-Finder.git
 

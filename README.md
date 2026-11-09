@@ -14,6 +14,8 @@ In this we give images according to weather condition
 
 Also this also give Humidity and Wind Speed
 
+You can also change the temperature unit from Celsius to Fahrenheit and Kelvin.
+
 
 This is made using API 
 

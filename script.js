@@ -4,7 +4,21 @@ const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 const search = document.querySelector(".search input");
 const searchbtn = document.querySelector(".search button");
 const wicon = document.querySelector(".weather-icon");
-
+const temunit = document.querySelector("#temunit");
+let currenttem = null;
+function updatetemp(){
+    let temp;
+    if(temunit.value === "fahrenheit"){
+        temp = (currenttem * 9/5) + 32;
+    } else if(temunit.value === "kelvin"){
+        temp = currenttem + 273.15;
+    }
+    else{
+        temp = currenttem;
+    }
+    let symbol = temunit.value === "fahrenheit" ? "°F" : temunit.value === "kelvin" ? "K" : "°C";
+    document.querySelector(".temperature").innerHTML = `${temp.toFixed(1)}${symbol}`;
+}
 async function checkWeather(city) {
     
     const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
@@ -18,7 +32,8 @@ async function checkWeather(city) {
 
 
     document.querySelector(".city").innerHTML = data.name;
-    document.querySelector(".temperature").innerHTML = data.main.temp + "c";
+    currenttem = data.main.temp;
+    updatetemp();
     document.querySelector(".humi").innerHTML = data.main.humidity + "%";
     document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
@@ -48,4 +63,4 @@ search.addEventListener("keydown", (event) => {
         checkWeather(search.value);
     }
 });
-checkWeather();
+temunit.addEventListener("change", updatetemp);

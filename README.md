@@ -1,6 +1,6 @@
 ![Alt Text](./images/pe.png)
 
-**Live Weather Finder** 
+**Cool Weather Finder** 
 
 ![Alt Text](./images/ff.png)
 
@@ -17,7 +17,7 @@ Also this also give Humidity and Wind Speed
 You can also change the temperature unit from Celsius to Fahrenheit and Kelvin.
 
 
-This is made using API 
+This is made using API and making into json
 
 Languages Used:
 
@@ -29,11 +29,13 @@ Languages Used:
 
 If You like my Weather finder Give me a Star ⭐ 
 
-Code URL :
+Code URL to run on local in vs terminal or git bash :
 
-https://github.com/JazilJafar/Weather-Finder.git
+git clone https://github.com/JazilJafar/Weather-Finder.git
 
 
 Demo URl:
 
 https://github.com/JazilJafar/Weather-Finder.git
+
+made with love💖
